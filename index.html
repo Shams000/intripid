@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>INTRIPID</title>
+  </head>
+  <body>
+    <div class="navlang">
+      <div class="language-bar">
+        <div class="language">
+          <span class="flag-icon"><img src="./assets/icons/globe.png" alt=""></span>
+          <span class="current-language">English</span>
+          <span class="dropdown-icon"><img src="./assets/icons/chevron-down.png" alt=""></span>
+        </div>
+        <ul class="language-dropdown">
+          <li data-lang="en">English</li>
+          <li data-lang="es">Español</li>
+          <li data-lang="fr">Français</li>
+          <li data-lang="de">Deutsch</li>
+        </ul>
+      </div>
+    </div>
+    
+   
+    <div class="navbar">
+      <nav>
+      
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="./assets/Logo Variants.png" alt=""></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home" data-key="nav-about">About</a></li>
+          <li><a href="#about" data-key="nav-solutions">Travel Solutions</a></li>
+          <li><a href="#store" data-key="nav-travelers">Our Travelers</a></li>
+          <li><a href="#service" data-key="nav-pricing">Pricing</a></li>
+          <li><a href="#contact" data-key="nav-faq">FAQ</a></li>
+          <li><button class="BTNpr" data-key="nav-member">BE A MEMBER</button></li>
+        </ul>
+      </nav>
+    </div>
+  <header id="home">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1 data-key="header-title">Plan Less.<br /><span>Travel More.</span></h1>
+          
+          <p data-key="header-desc">
+            Finding and planning a great itinerary can be stressful and time consuming — Intripid makes it easy.
+          </p>
+          <form action="/subscribe" method="POST">
+            <input type="email" placeholder="Enter your email
+            " name="email" class="email-input" required />
+            <button type="submit" class="btn-submit">
+                Join Now
+            </button>
+        </form>
+        </div>
+        <div class="header__image">
+          
+          <img src="./assets/header/Hero Image  2@3x.png" alt="header" />
+        </div>
+      </div>
+      <div class="header__bottom"></div>
+    </header>
+
+    <section class="client">
+      <div class="section__container client__container">
+       
+        <h2 class="section__header" data-key="client-desc">Enjoy access to the world's <br>
+          best travel advisors & travel deals</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="./assets/icons/icon1.svg" alt="client" />
+                  <div>
+                    <h4>Unlimited & Personalized</h4>
+                  </div>
+                </div>
+                <p>
+                  Members get limitless recommendations of destinations based on their customization 
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="./assets/icons/icon2.svg" alt="client" />
+                  <div>
+                    <h4>Travel Experts 
+                      & Advisors</h4>
+                  </div>
+                </div>
+                <p>
+                  No more doubts because of professional advices from <br><br> seasoned travelers
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <div class="client__details">
+                  <img src="./assets/icons/icon3.svg" alt="client" />
+                  <div>
+                    <h4>Killer perks 
+                      & packages</h4>
+                    
+                  </div>
+                </div>
+                <p>
+                  Free upgrades, vouchers, flash 
+                  <br>
+                  <br>
+                  deals, and marvelous experiences!
+                </p>
+              </div>
+            </div>
+   
+          </div>
+          <div class="btndiv">
+            <button class="BTNpr2">
+            Be an Exclusive Member Now
+            <span><img src="./assets/icons/star.png" width="12px" height="21px" alt=""></span>
+          </button>
+          
+        </div>
+        <p>Have a trip for as low as $28!</p>
+        </div>
+      </div>
+    </section>
+    <section class="compares">
+      <div class="section__container1 header__container1">
+        <div class="tag">
+          <div class="tag__top"><p>How Intripid works</p></div>
+          <div class="tag__head">
+            <h1>2 Simple Steps</h1>
+            <p>
+              Best travel advisors powerful machine learning and cloud computing tools that evaluate thousands of cities—based on weather, attractions, travel time, flight availability—in seconds!
+            </p>
+          </div>
+        </div>
+    
+       <div class="box-steps">
+         <!-- Images -->
+         <div class="header__image1 step-content step-1 active">
+          <img src="./assets/feature/graphic-left-column.png" alt="Step 1" />
+        </div>
+        <div class="header__image1 step-content step-2">
+          <img src="./assets/feature/graphic-left-column2.png" alt="Step 2" />
+        </div>
+        <div class="box-steps-desc"> 
+          <!-- Buttons -->
+          <div class="cardsteps">
+            <div class="buttonsteps">
+              <button id="step1Btn" class="step-button">Step 1</button>
+              <button id="step2Btn" class="step-button">Step 2</button>
+            </div>
+          </div>
+      
+          <!-- Text Content -->
+          <div class="header__content1 step-content step-1 active">
+            <h1>The Perfect Destination</h1>
+            <p>
+              Answer a few, quick questions about when you’re available to travel, your budget, etc.<br><br>
+              A Travel Advisor will use your answers and Intripid’s augmented intelligence tools to recommend the perfect destination.
+            </p>
+          </div>
+          <div class="header__content1 step-content step-2">
+            <h1>Your Travel Itinerary</h1>
+            <p>
+              Get a detailed travel itinerary that includes flights, accommodations, and excursions tailored for your preferences.
+            </p>
+          </div></div>
+       
+       </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="section__container header__container2">
+        <div class="header__content1">
+          <h1 data-key="header-title">Planning and 
+            <br /><span>Booking Assistance</span></h1>
+          
+          <ul class="custom-bullet-list">
+            <li>planning the day-to-day details of  trip</li>
+            <li>booking flights, accommodations, and excursions</li>
+            <li>individual, team,  and corporate trip types and  specializations</li>
+            <li>Expert Travel Advisor at transparent hourly rates</li>
+          </ul>
+          
+            <button type="submit" class="BTNpr">
+                <i class="ri-arrow-right-line"></i> Plan Trip With Us
+            </button>
+        
+        </div>
+        <div class="header__image2">
+          
+          <img src="./assets/Planning & Booking Assistance image.png" alt="header" />
+        </div>
+      </div>
+      <div class="header__bottom"></div>
+    </section>
+
+    
+
+    
+
+    <div class="cards">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card00">
+            <div class="client__details00">
+              
+                <h4>Legacy Custom— <br>but expensive!</h4>
+              
+            </div>
+            <p>
+              Takes hundreds of dollars to employ an agent who will spend hours—or even days!—researching a small number of potential locations. 
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card00">
+            <div class="client__details00">
+             
+              
+                <h4>Legacy Pre-Packaged— <br> not customized!</h4>
+              
+            </div>
+            <p>
+              A  microwave dinner of a trip - these are travel packages built to sell at volume, built for...definitely not you!
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card00">
+            <div class="client__details00">
+              
+              
+                <h4>Personalized, Fast, and Affordable!— <br>Intripid</h4>
+                
+              
+            </div>
+            <p>
+              Intripid 's proprietary tech enables highly-personalized results, delivered fast - and at super-low cost
+            </p>
+          </div>
+        </div>
+  
+      </div> 
+      <button type="submit" class="BTNpr">
+        Our Affordable Pricing
+    </button>
+    </div>
+    
+      
+<!-- hj -->
+
+
+  <div class="image-container">
+    <button class="arrow left" onclick="scrollImage(-1)" style="display: none;">&#8592;</button>
+    <div class="image-wrapper" onscroll="updateArrows()">
+      <img src="assets/feature/Group 2.png" alt="Scrollable Image">
+    </div>
+    <button class="arrow right" onclick="scrollImage(1)">&#8594;</button>
+  </div>
+
+<!-- khggf -->
+
+    <div>
+
+      <h2 class="section__header1" data-key="client-desc">What They Say About Intripid</h2>
+    </div>
+    <section class="testimonial-slider">
+      <div class="slider-container">
+        <!-- Testimonial 1 -->
+        <div class="testimonial active">
+          <img src="person1.jpg" alt="Stephen McKulley" class="testimonial-image" />
+          <h3>Stephen McKulley, Adventurer</h3>
+          <p>
+            "I have been contacting them for my flight bookings. They never fail to give me affordable flights. One loyal customer here! Thank you so much, Intripid."
+          </p>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+          <img src="person2.jpg" alt="Jane Doe" class="testimonial-image" />
+          <h3>Jane Doe, Explorer</h3>
+          <p>
+            "Intripid helped me find the best travel deals and planned my trips seamlessly. Highly recommended!"
+          </p>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+          <img src="person3.jpg" alt="John Smith" class="testimonial-image" />
+          <h3>John Smith, Wanderer</h3>
+          <p>
+            "Amazing experience with Intripid! Their advisors are truly the best in the business."
+          </p>
+        </div>
+    
+        <!-- Navigation Arrows -->
+        <button class="arrow left" id="prevBtn">❮-</button>
+        <button class="arrow right" id="nextBtn">-❯</button>
+      </div>
+      
+    </section>
+    <div class="but"><button type="submit" class="BTNpr">
+      See Our Travelers’ Adventures
+  </button></div>
+    
+  
+
+    <footer id="contact">
+        
+      <div class="section__container footer__container">
+        <div class="footer__col1">
+            <div class="footer__logo">
+              <a href="#"><img src="./assets/02/Logo Variants.png" class="fimg" alt=""></a>
+              <p data-key="footer-desc" >An online platform that encourages travel by removing stress from personal, leisure travel planning.</p>
+              <ul class="footer__socials">
+                  <li>
+                    <a href="#"><img src="./assets/icons/Facebook svg.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="./assets/icons/Instagram svg.svg" alt=""></a>
+                  </li>
+                
+                  <li>
+                    <a href="#"><img src="./assets/icons/LinkedIn svg.svg" alt=""></a>
+                  </li>
+                  <li>
+                    <a href="#"><img src="./assets/icons/Twitter  svg.svg" alt=""></a>
+                  </li>
+                  
+                </ul>
+            </div>
+          </div>
+        <div class="lastfootercolumn">
+            <div class="footer__col">
+            <h4  data-key="footer-about">About</h4>
+            <ul class="footer__links">
+              <li><a href="#" data-key="footer-about-intripid">About Intripid</a></li>
+              <li><a href="#" data-key="footer-our-travelers">Our Travelers</a></li>
+              <li><a href="#" data-key="footer-contact-us">Contact Us</a></li>
+              <li><a href="#" data-key="footer-faqs">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 data-key="footer-solutions">Solutions</h4>
+            <ul class="footer__links">
+              <li><a href="#" data-key="footer-personalized-destinations">Personalized Destinations</a></li>
+              <li><a href="#" data-key="footer-expert-advisors">Expert Travel Advisors</a></li>
+              <li><a href="#" data-key="footer-corporate-travel">Corporate Travel Planning</a></li>
+              <li><a href="#" data-key="footer-travel-sponsorship">Travel Sponsorship</a></li>
+              <li><a href="#" data-key="footer-points-rewards">Travel Points & Rewards Integration</a></li>
+            </ul>
+            <br />
+          </div>
+          <div class="footer__col">
+              <h4 data-key="footer-pricing">Pricing</h4>
+              <ul class="footer__links">
+                <li><a href="#" data-key="footer-membership-plans">Membership Plans</a></li>
+                <li><a href="#" data-key="footer-deals-packages">Deals & Packages</a></li>
+                <li><a href="#" data-key="footer-vouchers">Vouchers</a></li>
+              </ul></div>
+          <div class="footer__col">
+            <h4 data-key="footer-resources">Resources</h4>
+            <ul class="footer__links">
+              <li><a href="#" data-key="footer-brochure">Intripid Brochure</a></li>
+              <li><a href="#" data-key="footer-cutsheet">Executive Cutsheet</a></li>
+              
+            </ul>
+            <!-- <p>Stay updated with out latest news</p>
+            <form action="/">
+              <input type="text" placeholder="Your email" />
+              <button class="btn">
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </form> -->
+            
+            
+          </div>
+          <div class="footer__col">
+              <h4 data-key="footer-support">Support</h4>
+              <ul class="footer__links">
+                <li><a href="#"  data-key="footer-help-center">Help Center</a></li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h4 data-key="footer-privacy-safety">Privacy & Safety</h4>
+              <ul class="footer__links">
+                <li><a href="#" data-key="footer-terms-conditions">Terms & Conditions</a></li>
+                <li><a href="#" data-key="footer-privacy-cookies">Privacy & Cookies Statement</a></li>
+                <li><a href="#" data-key="footer-security">Security</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <div class="footerbarbelow"><div class="footer__bar" data-key="footer-rights">
+        All rights reserved © 2023 Intripid
+      </div>
+      <div class="footer__barr8" data-key="footer-privacy-terms">
+        Privacy/Terms & Conditions
+      </div>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
