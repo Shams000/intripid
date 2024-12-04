@@ -68,7 +68,7 @@ letter-spacing: -0.36px;
   position: fixed;
   z-index: 10;
   top: 0px;
-
+  height: 40px;
 }
 .current-language {
   color: var(--Intripid-Primary-31374A, #31374A);
