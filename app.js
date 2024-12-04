@@ -292,8 +292,8 @@ function scrollImage(direction) {
   }
   function updateArrows() {
     const wrapper = document.querySelector(".image-wrapper");
-    const leftArrow = document.querySelector(".arrow.left");
-    const rightArrow = document.querySelector(".arrow.right");
+    const leftArrow = document.querySelector(".arrow1.left");
+    const rightArrow = document.querySelector(".arrow1.right");
     // Show or hide left arrow
     if (wrapper.scrollLeft > 0) {
       leftArrow.style.display = "block";
@@ -311,4 +311,7 @@ function scrollImage(direction) {
   updateArrows();
   
   
-  
+  document.getElementById('menu-btn').addEventListener('click', function () {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('show');
+  });
