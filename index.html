@@ -40,33 +40,43 @@
       <nav>
       
         <div class="nav__header">
-          <div class="nav__logo">
-            <a href="#"><img src="./assets/Logo Variants.png" alt=""></a>
+          <div class="nav__logo">  
+            <a href="#" class="logo-default" id="logo1">  
+              <img src="./assets/Logo Variants.png" alt="Logo Variant 1">  
+            </a>  
+            <a href="#" class="logo-alternate" id="logo2">  
+              <img src="./assets/02/Logo Variants.png" alt="Logo Variant 2">  
+            </a>  
           </div>
-          <div>
+          <div class="BTNpr-alternate">
             <button class="BTNpr" data-key="nav-member">BE A MEMBER</button>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
           </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="#home" data-key="nav-about">About</a></li>
+            <li><a href="#about" data-key="nav-solutions">Travel Solutions</a></li>
+            <li><a href="#store" data-key="nav-travelers">Our Travelers</a></li>
+            <li><a href="#service" data-key="nav-pricing">Pricing</a></li>
+            <li><a href="#contact" data-key="nav-faq">FAQ</a></li>
+            
+          </ul>
+          <div class="BTNpr-default">
+            <button class="BTNpr" data-key="nav-member">BE A MEMBER</button>
+          </div>
         </div>
-        <ul class="nav__links" id="nav-links">
-          <li><a href="#home" data-key="nav-about">About</a></li>
-          <li><a href="#about" data-key="nav-solutions">Travel Solutions</a></li>
-          <li><a href="#store" data-key="nav-travelers">Our Travelers</a></li>
-          <li><a href="#service" data-key="nav-pricing">Pricing</a></li>
-          <li><a href="#contact" data-key="nav-faq">FAQ</a></li>
-          <li></li>
-        </ul>
+        
       </nav>
+      
     </div>
   <header id="home">
-      <div class="section__container header__container">
+      <div class="section__container5 header__container">
         <div class="header__content1">
           <h1 data-key="header-title">Plan Less.<br /><span>Travel More.</span></h1>
           
           <p data-key="header-desc">
-            Finding and planning a great itinerary can be stressful and time consuming — Intripid makes it easy.
+            Finding and planning a great itinerary can be stressful and time consuming — <span>Intripid makes it easy.</span>
           </p>
           <form action="/subscribe" method="POST">
             <input type="email" placeholder="Enter your email
@@ -142,7 +152,7 @@
             </div>
    
           </div>
-          <div class="btndiv">
+          <div class="btndiv1">
             <button class="BTNpr2">
             Be an Exclusive Member Now
             <span><img src="./assets/icons/star.png" width="12px" height="21px" alt=""></span>
@@ -165,26 +175,55 @@
           </div>
         </div>
     
-       <div class="box-steps">
-         <!-- Images -->
-         <div class="header__image1 step-content step-1 active">
-          <img src="./assets/feature/graphic-left-column.png" alt="Step 1" />
-        </div>
-        <div class="header__image1 step-content step-2">
-          <img src="./assets/feature/graphic-left-column2.png" alt="Step 2" />
-        </div>
-        <div class="box-steps-desc"> 
-          <!-- Buttons -->
-          <div class="cardsteps">
-            <div class="buttonsteps">
-              <button id="step1Btn" class="step-button">Step 1</button>
-              <button id="step2Btn" class="step-button">Step 2</button>
+        <div class="box-default">
+          <div class="box-steps">
+            <!-- Images -->
+            <div class="header__image1 step-content step-1 active">
+             <img src="./assets/feature/graphic-left-column.png" alt="Step 1" />
+           </div>
+           <div class="header__image1 step-content step-2">
+             <img src="./assets/feature/graphic-left-column2.png" alt="Step 2" />
+           </div>
+           <div class="box-steps-desc"> 
+             <!-- Buttons -->
+             <div class="cardsteps">
+               <div class="buttonsteps">
+                 <button id="step1Btn" class="step-button">Step 1</button>
+                 <button id="step2Btn" class="step-button">Step 2</button>
+               </div>
+             </div>
+         
+             <!-- Text Content -->
+             <div class="header__content1 step-content step-1 active">
+               <h1>The Perfect Destination</h1>
+               <p>
+                 Answer a few, quick questions about when you’re available to travel, your budget, etc. <br><br>
+                 A Travel Advisor will use your answers and Intripid’s augmented intelligence tools to analyze all the places in the world you could go and recommend the perfect destination you should go. <br><br>
+                 Within 24-hours, you’ll receive an email with the recommended destination, an explanation of why it’s perfect for your trip, photos, some of the top attractions to explore there, etc. <br><br>
+                 If you don’t love your destination, simply request another — Intripid is so confident in our technology and advisors that you get unlimited recommendations.
+               </p>
+             </div>
+             <div class="header__content1 step-content step-2">
+               <h1>Your Travel Itinerary</h1>
+               <p>
+                 This is the fun part, and it can be done at your leisure. <br><br>
+   You know where & when you’re traveling, now you get to dream and plan the details of your getaway! <br><br>
+   If you want or need help, Intripid can quickly match you with a Travel Advisor who has expertise in your destination — they can help book flights, accommodations, local excursions, etc. <br><br>
+   A Travel Advisor can often secure special deals and perks, so definitely consider hiring one!
+               </p>
+             </div>
             </div>
+          
           </div>
-      
-          <!-- Text Content -->
-          <div class="header__content1 step-content step-1 active">
-            <h1>The Perfect Destination</h1>
+         </div>
+       <div class="box-alternate">
+        <div class="box-steps">
+          <!-- Images -->
+          <div class="header__image1 ">
+           
+           <div class="header__content1">
+            <h1>Step 1</h1>
+            <img src="./assets/feature/graphic-left-column.png" alt="" />
             <p>
               Answer a few, quick questions about when you’re available to travel, your budget, etc. <br><br>
               A Travel Advisor will use your answers and Intripid’s augmented intelligence tools to analyze all the places in the world you could go and recommend the perfect destination you should go. <br><br>
@@ -192,17 +231,23 @@
               If you don’t love your destination, simply request another — Intripid is so confident in our technology and advisors that you get unlimited recommendations.
             </p>
           </div>
-          <div class="header__content1 step-content step-2">
-            <h1>Your Travel Itinerary</h1>
+         </div>
+         <div class="header__image1">
+           
+           <div class="header__content1 ">
+            <h1>Step 2</h1>
+            <img src="./assets/feature/graphic-left-column2.png" alt="" />
             <p>
               This is the fun part, and it can be done at your leisure. <br><br>
 You know where & when you’re traveling, now you get to dream and plan the details of your getaway! <br><br>
 If you want or need help, Intripid can quickly match you with a Travel Advisor who has expertise in your destination — they can help book flights, accommodations, local excursions, etc. <br><br>
 A Travel Advisor can often secure special deals and perks, so definitely consider hiring one!
             </p>
-          </div></div>
-       
+          </div>
+         </div>
+        </div>
        </div>
+
       </div>
     </section>
     
@@ -235,6 +280,15 @@ A Travel Advisor can often secure special deals and perks, so definitely conside
     
 <!-- hj -->
 
+<div class="section__container1 header__container1">
+  <div class="tag">
+    <div class="tag__top"><p>How Intripid Compares
+    </p></div>
+    <div class="tag__head">
+      <h1>Better, Affordable, and  Faster Travels with Us</h1>
+    </div>
+  </div>
+</div>
 
 <div class="image-container">
   <button class="arrow1 left" onclick="scrollImage(-1)" style="display: none;">&#8592;</button>
@@ -299,40 +353,58 @@ A Travel Advisor can often secure special deals and perks, so definitely conside
       
 
 
-    <div>
+    <div class="ssl">
 
-      <h2 class="section__header1" data-key="client-desc">What They Say About Intripid</h2>
+      <h2 class="section__header1" data-key="client-desc">What They Say About <span>Intripid</span></h2>
     </div>
     <section class="testimonial-slider">
       <div class="slider-container">
         <!-- Testimonial 1 -->
         <div class="testimonial active">
-          <img src="person1.jpg" alt="Stephen McKulley" class="testimonial-image" />
-          <h3>Stephen McKulley, Adventurer</h3>
-          <p>
-            "I have been contacting them for my flight bookings. They never fail to give me affordable flights. One loyal customer here! Thank you so much, Intripid."
-          </p>
-        </div>
-        <!-- Testimonial 2 -->
-        <div class="testimonial">
-          <img src="person2.jpg" alt="Jane Doe" class="testimonial-image" />
-          <h3>Jane Doe, Explorer</h3>
-          <p>
-            "Intripid helped me find the best travel deals and planned my trips seamlessly. Highly recommended!"
-          </p>
-        </div>
-        <!-- Testimonial 3 -->
-        <div class="testimonial">
-          <img src="person3.jpg" alt="John Smith" class="testimonial-image" />
-          <h3>John Smith, Wanderer</h3>
+          <div class="cardflex">
+            <div class="cardimg">
+              <img src="./assets/Profile/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="John Smith" class="testimonial-image" />
+            </div>
+          <div class="carddesc">
+            <h3>John Smith, Wanderer</h3>
           <p>
             "Amazing experience with Intripid! Their advisors are truly the best in the business."
           </p>
+          </div>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+          <div class="cardflex">
+            <div class="cardimg">
+              <img src="./assets/Profile/5616.avif" alt="John Smith" class="testimonial-image" />
+            </div>
+          <div class="carddesc">
+            <h3>John Smith, Wanderer</h3>
+          <p>
+            "Amazing experience with Intripid! Their advisors are truly the best in the business."
+          </p>
+          </div>
+          </div>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+          <div class="cardflex">
+            <div class="cardimg">
+              <img src="./assets/Profile/cara-menjadi-orang-sukses.jpg" alt="John Smith" class="testimonial-image" />
+            </div>
+          <div class="carddesc">
+            <h3>John Smith, Wanderer</h3>
+          <p>
+            "Amazing experience with Intripid! Their advisors are truly the best in the business."
+          </p>
+          </div>
+          </div>
         </div>
     
         <!-- Navigation Arrows -->
-        <button class="arrow left" id="prevBtn">❮-</button>
-        <button class="arrow right" id="nextBtn">-❯</button>
+        <button class="arrow left" id="prevBtn"><img src="./assets/icons/arrow_right_alt_24dp_5F6368_FILL0_wght300_GRAD0_opsz24.svg" alt=""></button>
+        <button class="arrow right" id="nextBtn"><img src="./assets/icons/arrow_forward_24dp_FFFF_FILL0_wght300_GRAD0_opsz24r8.svg" alt=""></button>
       </div>
       
     </section>
@@ -346,12 +418,12 @@ A Travel Advisor can often secure special deals and perks, so definitely conside
       <section class="client8">
         <div class="section__container client__container">
           <!-- Slider main container -->
-          <div class="swiper">
+          <div class="boxyy">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
               
-              <div class="swiper-slide">
+              <div class="boxyy-slide">
                 <div class="client__card">
                   <div class="client__details">
                     <div>
@@ -367,7 +439,7 @@ A Travel Advisor can often secure special deals and perks, so definitely conside
      
             </div>
             <div class="btndiv">
-              <button class="BTNpr2">
+              <button class="BTNprf">
                 Join the Mission
             </button>
             
@@ -378,7 +450,7 @@ A Travel Advisor can often secure special deals and perks, so definitely conside
       <div class="section__container footer__container">
         <div class="footer__col1">
             <div class="footer__logo">
-              <a href="#"><img src="./assets/02/Logo Variants.png" class="fimg" alt=""></a>
+              <a href="#"><img src="./assets/02/Logo Variants.svg" class="fimg" alt=""></a>
               <p data-key="footer-desc" >An online platform that encourages travel by removing stress from personal, leisure travel planning.</p>
               <ul class="footer__socials">
                   <li>
@@ -459,13 +531,15 @@ A Travel Advisor can often secure special deals and perks, so definitely conside
             </div>
         </div>
       </div>
-      <div class="footerbarbelow"><div class="footer__bar" data-key="footer-rights">
+      
+      <div class="bf">
+        <div class="footerbarbelow"><div class="footer__bar" data-key="footer-rights">
         All rights reserved © 2023 Intripid
       </div>
       <div class="footer__barr8" data-key="footer-privacy-terms">
         Privacy/Terms & Conditions
       </div>
-    </div>
+    </div></div>
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>

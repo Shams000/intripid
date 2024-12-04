@@ -267,12 +267,20 @@ const languageData = {
     showTestimonial(currentIndex);
   });
 
-  const navLinks = document.getElementById("nav-links");
+  const menuBtn = document.getElementById("menu-btn");
+const navLinks = document.getElementById("nav-links");
+const menuBtnIcon = menuBtn.querySelector("i");
+
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
 
   const isOpen = navLinks.classList.contains("open");
   menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
+});
+
+navLinks.addEventListener("click", (e) => {
+  navLinks.classList.remove("open");
+  menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
 navLinks.addEventListener("click", (e) => {
@@ -309,9 +317,14 @@ function scrollImage(direction) {
   }
   // Initial arrow state check
   updateArrows();
+ 
+  const toggleButton = document.getElementById('menu-btn'); // Menu button  
+const logo1 = document.getElementById('logo1'); // Default logo  
+const logo2 = document.getElementById('logo2'); // Alternate logo  
+
+
+
+
+
+
   
-  
-  document.getElementById('menu-btn').addEventListener('click', function () {
-    const navLinks = document.getElementById('nav-links');
-    navLinks.classList.toggle('show');
-  });
