@@ -349,6 +349,7 @@ gap: 4px;
 align-self: stretch;
 width: 100%;
 border-radius: 32px;
+color: #31374A;
 border: 1px solid #E0E0E0;
 background: var(--background-ffffff-white, #FFF);
 }
@@ -462,13 +463,14 @@ header {
 }
 
 .custom-bullet-list li {
-  padding-left: 25px; /* Adds space for the custom bullet */
   margin: 8px 0;
   color: var(--Intripid-Primary-31374A, #31374A);
 /* Subheading/300 */
 font-family: "Plus Jakarta Sans";
+display: flex;
 font-size: 18px;
 font-style: normal;
+display: flex;
 font-weight: 400;
 line-height: 150%; /* 27px */
 letter-spacing: -0.36px;
@@ -479,6 +481,7 @@ letter-spacing: -0.36px;
   color: #F47F22;
   font-weight: bold;
   padding-right: 8px;
+  padding-top: 8px;
   left: 0; /* Positions the bullet to the left of the text */
   top: 0;
 }
@@ -1531,6 +1534,46 @@ letter-spacing: -0.36px;
   .footer__col1 {
    width:  100%;
 
+  }
+  @media (width < 360px){
+    .BTNnv {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      background-color: #F47F22;
+      display: flex
+  ;
+      padding: 16px 26px;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      width: 180px;
+      border: none;
+      border-radius: 32px;
+      color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      letter-spacing: -0.36px;
+  }
+  .header__image img {
+    max-width: 280px;
+    margin-inline: auto;
+}
+  .subscribef{
+  display: flex;
+  flex-wrap: wrap;}
+
+  .btn-submit {
+    padding: 16px 24px;
+    background-color: #F47F22;
+    color: white;
+    border: none;
+    width: 30%;
+    
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
   }
 
 @media (width > 540px) {
