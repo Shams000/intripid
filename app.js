@@ -234,6 +234,22 @@ const languageData = {
     step2Btn.addEventListener("click", () => showStep(2));
   });
 
+//   card
+document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".client__card00");
+  
+    cards.forEach((card) => {
+      card.addEventListener("click", () => {
+        // Remove 'active' class from all cards
+        cards.forEach((c) => c.classList.remove("active"));
+  
+        // Add 'active' class to the clicked card
+        card.classList.add("active");
+      });
+    });
+  });
+  
+
   
   document.addEventListener("DOMContentLoaded", function () {
     const testimonials = document.querySelectorAll(".testimonial");
