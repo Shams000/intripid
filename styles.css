@@ -521,6 +521,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 116%; /* 59.16px */
 letter-spacing: -2.04px;
+padding-bottom: 40px;
 }
 
 .header__content h1 span {
@@ -1264,14 +1265,10 @@ font-weight: 500;
 line-height: 150%; /* 27px */
 letter-spacing: -0.36px;
 }
-.step-button .active {
+.step-button:hover,
+.step-button.active {
   border-bottom: 8px solid var(--Intripid-Primary-F47F22, #F47F22);
-background: var(--background-f-1-f-1-f-1-hard-elevation, #F1F1F1);
-}
-
-.step-button:hover {
-  border-bottom: 8px solid var(--Intripid-Primary-F47F22, #F47F22);
-background: var(--background-f-1-f-1-f-1-hard-elevation, #F1F1F1);
+  background: var(--background-f-1-f-1-f-1-hard-elevation, #F1F1F1);
 }
 
 .statis-wrapper {
@@ -2363,10 +2360,21 @@ background: var(--background-ffffff-white, #FFF);
         background-position: center;
         
     }
-  
+    .buttonsteps {
+      display: flex;
+      width: 655px;
+  }
+  .header__content1 p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.36px;
+    width: 655px;
+}
    
     .box-steps-desc{
-      width: 540px;
+      width: 655px;
     }
     .arrow1{
       display: none;
