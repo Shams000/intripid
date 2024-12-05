@@ -26,7 +26,7 @@ document.querySelectorAll('.language-dropdown li').forEach((item) => {
 
 // Define your language data
 const languageData = {
-    en: {
+    English: {
       "nav-about": "About",
       "nav-solutions": "Travel Solutions",
       "nav-travelers": "Our Travelers",
@@ -34,7 +34,7 @@ const languageData = {
       "nav-faq": "FAQ",
       "nav-member": "BE A MEMBER",
       "header-title": "Plan Less.<br /><span>Travel More.</span>",
-      "header-desc": "Finding and planning a great itinerary can be stressful and time consuming — Intripid makes it easy.",
+      "header-desc": "Finding and planning a great itinerary can be stressful and time consuming — <span>Intripid makes it easy.</span>",
       "header-btn": "Start Here!",
       "client-desc": "Enjoy access to the world's <br> best travel advisors & travel deals",
       "footer-desc": "An online platform that encourages travel by removing stress from personal, leisure travel planning.",
@@ -67,7 +67,7 @@ const languageData = {
 
       
     },
-    es: {
+    Español: {
       "nav-about": "Acerca de",
       "nav-solutions": "Soluciones de viaje",
       "nav-travelers": "Nuestros viajeros",
@@ -75,7 +75,7 @@ const languageData = {
       "nav-faq": "Preguntas frecuentes",
       "nav-member": "HAZTE MIEMBRO",
       "header-title": "Planifica menos.<br /><span>Viaja más.</span>",
-      "header-desc": "Encontrar y planificar un buen itinerario puede ser estresante y llevar mucho tiempo. Intripid lo hace fácil.",
+      "header-desc": "Encontrar y planificar un buen itinerario puede ser estresante y llevar mucho tiempo- <span> Intripid lo hace fácil.</span>",
       "header-btn": "¡Comienza aquí!",
       "client-desc": "Disfruta del acceso a los mejores asesores de viajes y ofertas de viajes del mundo",
       "footer-desc": "Una plataforma en línea que fomenta los viajes eliminando el estrés de la planificación de viajes personales y de ocio.",
@@ -106,7 +106,7 @@ const languageData = {
     "footer-rights": "Todos los derechos reservados © 2023 Intripid",
     "footer-privacy-terms": "Privacidad/Términos y condiciones"
     },
-    fr: {
+    Français: {
       "nav-about": "À propos",
       "nav-solutions": "Solutions de voyage",
       "nav-travelers": "Nos voyageurs",
@@ -114,7 +114,7 @@ const languageData = {
       "nav-faq": "FAQ",
       "nav-member": "DEVENIR MEMBRE",
       "header-title": "Planifiez moins.<br /><span>Voyagez plus.</span>",
-      "header-desc": "Trouver et planifier un bon itinéraire peut être stressant et prendre du temps — Intripid facilite les choses.",
+      "header-desc": "Trouver et planifier un bon itinéraire peut être stressant et prendre du temps — <span>Intripid facilite les choses.</span>",
       "header-btn": "Commencez ici!",
       "client-desc": "Accédez aux meilleurs conseillers en voyages et aux meilleures offres de voyage du monde",
       "footer-desc": "Une plateforme en ligne qui encourage les voyages en éliminant le stress de la planification de voyages personnels et de loisirs.",
@@ -146,7 +146,7 @@ const languageData = {
 "footer-privacy-terms": "Confidentialité/Conditions générales"
 
     },
-    de: {
+    Deutsch: {
       "nav-about": "Über uns",
       "nav-solutions": "Reiselösungen",
       "nav-travelers": "Unsere Reisenden",
