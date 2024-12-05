@@ -616,6 +616,17 @@ letter-spacing: -2.68px;
   flex-direction: column;
   
 }
+.tag__head p{
+  color: var(--Intripid-Primary-31374A, #31374A);
+text-align: center;
+/* Subheading/300 */
+font-family: "Plus Jakarta Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+letter-spacing: -0.36px;
+}
 .tag__top p{
   color: var(--Intripid-Text-Inverse, #FFF);
 /* Subtitle/400 */
