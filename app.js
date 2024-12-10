@@ -64,3 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Example: Redirect to contact page
     window.location.href = "contact.html";
   });
+  document.querySelector(".BTNprf").addEventListener("click", function () {
+    // Example: Redirect to contact page
+    window.location.href = "contact.html";
+  });
