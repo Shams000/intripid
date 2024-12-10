@@ -46,13 +46,16 @@ document.querySelectorAll(".accordion-header").forEach((header) => {
 document.addEventListener("DOMContentLoaded", () => {
   const toggleSwitch = document.getElementById("pricingToggle");
   const annuallyContent = document.querySelector(".pricing-content.annually");
+  const annuallyContent2 = document.querySelector(".pricing-content1.annually");
   const quarterlyContent = document.querySelector(".pricing-content.quarterly");
 
   toggleSwitch.addEventListener("change", () => {
     if (toggleSwitch.checked) {
+      annuallyContent2.classList.remove("active");
       annuallyContent.classList.remove("active");
       quarterlyContent.classList.add("active");
     } else {
+      annuallyContent2.classList.add("active");
       quarterlyContent.classList.remove("active");
       annuallyContent.classList.add("active");
     }
