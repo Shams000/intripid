@@ -1413,7 +1413,7 @@ background: var(--background-ffffff-white, #FFF);
       padding: 25px 30px;
     }
     .header__imageon img {
-      width: 653px;
+      width: 553px;
     }
   /* -----Footer--- */
   .footer__container {
@@ -1472,6 +1472,9 @@ background: var(--background-ffffff-white, #FFF);
     margin-top: 4rem;
     width: 570px;
     margin-left: 500px;
+}
+.header__imageon img {
+  width: 653px;
 }
   .client8 {
   
