@@ -330,6 +330,16 @@ letter-spacing: -0.32px;
   padding-bottom: 120px;
   justify-content: center;
 }
+.section__container6{
+  max-width: 100%;
+  padding-top: 120px;
+  margin: auto;
+  display: grid;
+  padding: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: center;
+}
 
 .section__header {
   top: 180px;
@@ -1252,10 +1262,18 @@ background: var(--background-ffffff-white, #FFF);
     padding-top: 160px;
     padding-bottom: 160px;
   }
+  .section__container6 {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
   .section__header {
     margin-bottom: 40px;
 }
 .section__container {
+  padding: 160px 56px;
+  margin-bottom: 160px;
+}
+.section__container6 {
   padding: 24px 56px;
   margin-bottom: 160px;
 }
