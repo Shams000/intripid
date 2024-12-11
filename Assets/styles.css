@@ -1613,6 +1613,7 @@ background: var(--background-ffffff-white, #FFF);
     margin: auto;
     gap: 120px;
     margin-top: 80px;
+    margin-bottom: 120px;
 }
   footer .footer__container{
     background-color: white;
