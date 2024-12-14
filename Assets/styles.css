@@ -416,6 +416,7 @@ letter-spacing: -0.32px;
     align-self: stretch;
     border-radius: 32px;
     border: 1px solid #E0E0E0;
+    cursor: pointer;
     background: var(--background-ffffff-white, #FFF);
   }
   /*  Questions */
@@ -790,6 +791,7 @@ letter-spacing: -0.84px
   .pricing-content {
     display: none;
   }
+
   .pricing-content1 {
     display: block;
     padding: 8px 16px;
@@ -1070,6 +1072,7 @@ color: #31374A;
   padding-bottom: 120px;
   justify-content: center;
   }
+
 .footer__container {
     justify-content: center;
     display: grid;
@@ -1139,7 +1142,6 @@ color: #31374A;
   justify-content: space-between;
   padding-left: 30px;
   padding-right: 30px;
-  
 }
 .footer__bar {
   padding-top: 1rem;
@@ -1161,6 +1163,7 @@ color: #31374A;
   gap: 32px;
   font-family: Arial, sans-serif;
 }
+
 .client8__details h4 {
   color: var(--Intripid-Primary-31374A, #31374A);
   /* Heading/H4 */
@@ -1171,9 +1174,9 @@ color: #31374A;
   line-height: 116%; /* 44.08px */
   letter-spacing: -1.52px;
 }
+
 .download-card {
-  display: flex;
-  
+  display: flex; 
   padding: 24px;
   justify-content: center;
   align-items: center;
@@ -1184,9 +1187,9 @@ color: #31374A;
   background: #FFF;
   box-shadow: 0px 3.895px 75.297px 0px rgba(174, 93, 255, 0.05);
 }
+
 img.pdf-icon img{
   width: 62px;
-
 }
 
 .download-card:hover {
@@ -1222,18 +1225,19 @@ img.pdf-icon img{
 .BTNprf{
   font-family: "Plus Jakarta Sans", sans-serif;  
   display: flex;
-height: 59px;
-
-justify-content: center;
-align-items: center;
-gap: 4px;
-align-self: stretch;
-width: 100%;
-border-radius: 32px;
-color: #31374A;
-border: 1px solid #E0E0E0;
-background: var(--background-ffffff-white, #FFF);
+  height: 59px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  width: 100%;
+  border-radius: 32px;
+  color: #31374A;
+  border: 1px solid #E0E0E0;
+  background: var(--background-ffffff-white, #FFF);
+  cursor: pointer;
 }
+
 .btndiv{
   display: flex;
   justify-content: center;
@@ -1340,6 +1344,7 @@ background: var(--background-ffffff-white, #FFF);
   padding: 24px 56px;
   margin-bottom: 136px;
 }
+
   .swiper {
     display: flex;
     gap: 10px;
